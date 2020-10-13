@@ -1,1 +1,1 @@
-# Istrobot-MazzeSolver
+# Istrobot-MazeSolver
