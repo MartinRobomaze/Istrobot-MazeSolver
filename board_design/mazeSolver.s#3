@@ -22808,9 +22808,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="17.78" y1="7.62" x2="17.78" y2="127" width="0.1524" layer="97"/>
 <text x="68.58" y="129.54" size="1.778" layer="97">distance sensors</text>
 <wire x1="142.24" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="97"/>
-<wire x1="228.6" y1="147.32" x2="228.6" y2="99.06" width="0.1524" layer="97"/>
-<wire x1="228.6" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="97"/>
-<wire x1="142.24" y1="99.06" x2="142.24" y2="147.32" width="0.1524" layer="97"/>
+<wire x1="228.6" y1="147.32" x2="228.6" y2="45.72" width="0.1524" layer="97"/>
+<wire x1="228.6" y1="45.72" x2="142.24" y2="45.72" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="45.72" x2="142.24" y2="147.32" width="0.1524" layer="97"/>
 <text x="185.42" y="149.86" size="1.778" layer="97">IMU</text>
 </plain>
 <instances>
