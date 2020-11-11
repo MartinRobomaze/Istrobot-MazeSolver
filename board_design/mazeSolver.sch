@@ -21783,7 +21783,7 @@ By using any of these models, you agree that this information has been provided 
 <part name="U$4" library="tda9548" deviceset="TDA9548" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$5" library="vl6180x" deviceset="VL6180X" device=""/>
+<part name="U$5" library="vl6180x" deviceset="VL6180X" device="" override_package3d_urn="urn:adsk.eagle:package:24664329/2" override_package_urn="urn:adsk.eagle:footprint:24664330/1"/>
 <part name="U$6" library="vl6180x" deviceset="VL6180X" device=""/>
 <part name="U$7" library="vl6180x" deviceset="VL6180X" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21842,7 +21842,7 @@ By using any of these models, you agree that this information has been provided 
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U5" library="Switches" library_urn="urn:adsk.eagle:library:14854419" deviceset="4-1437565-1" device="" package3d_urn="urn:adsk.eagle:package:14854631/2" value="RST"/>
 <part name="U6" library="Switches" library_urn="urn:adsk.eagle:library:14854419" deviceset="4-1437565-1" device="" package3d_urn="urn:adsk.eagle:package:14854631/2" value="BOOT"/>
-<part name="U$1" library="con-T-plug" deviceset="T-PLUG_CONNECTOR" device=""/>
+<part name="U$1" library="con-T-plug" deviceset="T-PLUG_CONNECTOR" device="" override_package3d_urn="urn:adsk.eagle:package:24664353/2" override_package_urn="urn:adsk.eagle:footprint:24664354/1"/>
 <part name="U$8" library="microusb" deviceset="MICRO-USB" device=""/>
 </parts>
 <sheets>

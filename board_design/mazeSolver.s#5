@@ -19883,102 +19883,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-T-plug">
-<packages>
-<package name="T_PLUG_CONNECTOR">
-<wire x1="0" y1="0" x2="5.5" y2="0" width="0.127" layer="21"/>
-<wire x1="14.1" y1="1.5" x2="14.1" y2="7" width="0.127" layer="21"/>
-<wire x1="0" y1="8.5" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="6.5" y1="1" x2="5.5" y2="0" width="0.127" layer="21"/>
-<wire x1="6.5" y1="1" x2="13.6" y2="1" width="0.127" layer="21"/>
-<wire x1="0" y1="8.5" x2="5.5" y2="8.5" width="0.127" layer="21"/>
-<wire x1="1.8" y1="1.85" x2="3.35" y2="1.85" width="0" layer="17"/>
-<wire x1="18.8" y1="2.05" x2="18.8" y2="2.1" width="0" layer="21"/>
-<wire x1="1.8" y1="6.6" x2="3.35" y2="6.6" width="0" layer="17"/>
-<wire x1="1.8" y1="6.6" x2="1.8" y2="1.85" width="0" layer="17"/>
-<wire x1="3.35" y1="1.85" x2="3.35" y2="6.6" width="0" layer="17"/>
-<wire x1="13" y1="4.7" x2="13" y2="6.35" width="0" layer="17"/>
-<wire x1="5.5" y1="8.5" x2="6.5" y2="7.5" width="0.127" layer="21"/>
-<wire x1="6.5" y1="7.5" x2="13.6" y2="7.5" width="0.127" layer="21"/>
-<wire x1="13.6" y1="7.5" x2="14.1" y2="7" width="0.127" layer="21"/>
-<wire x1="13.6" y1="1" x2="14.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="8.25" y1="6.35" x2="13" y2="6.35" width="0" layer="17"/>
-<wire x1="1.3" y1="7.1" x2="3.85" y2="7.1" width="1.016" layer="17"/>
-<wire x1="3.85" y1="7.1" x2="3.85" y2="2" width="1.016" layer="17"/>
-<wire x1="3.85" y1="1.9" x2="3.8" y2="1.35" width="1.016" layer="17"/>
-<wire x1="3.8" y1="1.35" x2="1.3" y2="1.35" width="1.016" layer="17"/>
-<wire x1="1.3" y1="1.35" x2="1.3" y2="7.1" width="1.016" layer="17"/>
-<wire x1="7.75" y1="6.85" x2="13.45" y2="6.85" width="1" layer="17"/>
-<wire x1="13.45" y1="4.2" x2="7.75" y2="4.2" width="0.97" layer="17"/>
-<wire x1="7.75" y1="4.2" x2="7.75" y2="6.85" width="1.016" layer="17"/>
-<pad name="P-1" x="2.6" y="4.35" drill="0.1" shape="square"/>
-<pad name="P-2" x="10.55" y="5.55" drill="0.1" shape="square"/>
-<wire x1="16.15" y1="5.55" x2="16.15" y2="5.6" width="0" layer="21"/>
-<wire x1="13.45" y1="4.2" x2="13.45" y2="6.85" width="0.97" layer="17"/>
-</package>
-</packages>
-<symbols>
-<symbol name="T_PLUG_CONNECTOR">
-<wire x1="0.5" y1="0" x2="5.5" y2="0" width="0.127" layer="94"/>
-<wire x1="13.5" y1="1.5" x2="13.5" y2="6" width="0.127" layer="94"/>
-<wire x1="5.5" y1="7.5" x2="0.5" y2="7.5" width="0.127" layer="94"/>
-<wire x1="0" y1="7" x2="0" y2="0.5" width="0.127" layer="94"/>
-<wire x1="6.5" y1="6.5" x2="13" y2="6.5" width="0.127" layer="94"/>
-<wire x1="6.5" y1="1" x2="13" y2="1" width="0.127" layer="94"/>
-<wire x1="5.5" y1="0" x2="6.5" y2="1" width="0.127" layer="94"/>
-<wire x1="5.5" y1="7.5" x2="6.5" y2="6.5" width="0.127" layer="94"/>
-<wire x1="13" y1="1" x2="13.5" y2="1.5" width="0.127" layer="94"/>
-<wire x1="13" y1="6.5" x2="13.5" y2="6" width="0.127" layer="94"/>
-<wire x1="0.5" y1="7.5" x2="0" y2="7" width="0.127" layer="94"/>
-<wire x1="0" y1="0.5" x2="0.5" y2="0" width="0.127" layer="94"/>
-<wire x1="6.1" y1="1.75" x2="9.9" y2="1.75" width="0.127" layer="91"/>
-<wire x1="10" y1="4.5" x2="10" y2="3.5" width="0.127" layer="91"/>
-<wire x1="6" y1="4.5" x2="6" y2="3.5" width="0.127" layer="91"/>
-<wire x1="6" y1="4.5" x2="10" y2="4.5" width="0.127" layer="91"/>
-<wire x1="2" y1="5.75" x2="3" y2="5.75" width="0.127" layer="94"/>
-<wire x1="3" y1="1.75" x2="2" y2="1.75" width="0.127" layer="94"/>
-<wire x1="2" y1="1.75" x2="2" y2="5.75" width="0.127" layer="94"/>
-<wire x1="6" y1="4.5" x2="10" y2="4.5" width="0.127" layer="94"/>
-<wire x1="10" y1="4.5" x2="10" y2="3.5" width="0.127" layer="94"/>
-<wire x1="6" y1="3.5" x2="6" y2="4.5" width="0.127" layer="94"/>
-<wire x1="3" y1="5.75" x2="3.1" y2="5.65" width="0.127" layer="91"/>
-<wire x1="3.1" y1="5.65" x2="4.6" y2="5.65" width="0.127" layer="91"/>
-<wire x1="4.6" y1="5.65" x2="4.6" y2="1.85" width="0.127" layer="91"/>
-<wire x1="4.6" y1="1.85" x2="3.1" y2="1.85" width="0.127" layer="91"/>
-<wire x1="3.1" y1="1.85" x2="3" y2="1.75" width="0.127" layer="91"/>
-<wire x1="6" y1="3.5" x2="6.1" y2="3.4" width="0.127" layer="91"/>
-<wire x1="6.1" y1="3.4" x2="6.1" y2="1.75" width="0.127" layer="91"/>
-<wire x1="10" y1="3.5" x2="9.9" y2="3.4" width="0.127" layer="91"/>
-<wire x1="9.9" y1="3.4" x2="9.9" y2="1.75" width="0.127" layer="91"/>
-<wire x1="3" y1="5.75" x2="2" y2="5.75" width="0.127" layer="91"/>
-<wire x1="2" y1="5.75" x2="2" y2="1.75" width="0.127" layer="91"/>
-<wire x1="2" y1="1.75" x2="3" y2="1.75" width="0.127" layer="91"/>
-<wire x1="0.5" y1="3.5" x2="1.5" y2="3.5" width="0.254" layer="94"/>
-<wire x1="1" y1="4" x2="1" y2="3" width="0.254" layer="94"/>
-<wire x1="10.5" y1="2.5" x2="11.5" y2="2.5" width="0.254" layer="94"/>
-<pin name="P-1" x="2.54" y="-2.54" length="middle" direction="pas" rot="R90"/>
-<pin name="P-2" x="7.62" y="-2.54" length="middle" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="T-PLUG_CONNECTOR">
-<gates>
-<gate name="T_PLUG" symbol="T_PLUG_CONNECTOR" x="-20.32" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="T_PLUG_CONNECTOR">
-<connects>
-<connect gate="T_PLUG" pin="P-1" pad="P-1"/>
-<connect gate="T_PLUG" pin="P-2" pad="P-2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="st-microelectronics" urn="urn:adsk.eagle:library:368">
 <description>&lt;b&gt;ST Microelectronics Devices&lt;/b&gt;&lt;p&gt;
 Microcontrollers,  I2C components, linear devices&lt;p&gt;
@@ -21755,6 +21659,89 @@ By using any of these models, you agree that this information has been provided 
 </deviceset>
 </devicesets>
 </library>
+<library name="con-T-plug">
+<packages>
+<package name="T_PLUG_CONNECTOR">
+<wire x1="0" y1="0" x2="5.5" y2="0" width="0.127" layer="21"/>
+<wire x1="14.1" y1="1.5" x2="14.1" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="8.5" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="6.5" y1="1" x2="5.5" y2="0" width="0.127" layer="21"/>
+<wire x1="6.5" y1="1" x2="13.6" y2="1" width="0.127" layer="21"/>
+<wire x1="0" y1="8.5" x2="5.5" y2="8.5" width="0.127" layer="21"/>
+<wire x1="18.8" y1="2.05" x2="18.8" y2="2.1" width="0" layer="21"/>
+<wire x1="5.5" y1="8.5" x2="6.5" y2="7.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="7.5" x2="13.6" y2="7.5" width="0.127" layer="21"/>
+<wire x1="13.6" y1="7.5" x2="14.1" y2="7" width="0.127" layer="21"/>
+<wire x1="13.6" y1="1" x2="14.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="16.15" y1="5.55" x2="16.15" y2="5.6" width="0" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="2.54" width="1.524" layer="46"/>
+<pad name="P$1" x="2.54" y="4.445" drill="0.45" diameter="3.048" shape="long" rot="R90"/>
+<pad name="P$2" x="10.541" y="5.588" drill="0.6" diameter="3.302" shape="long"/>
+<wire x1="8.636" y1="5.588" x2="12.446" y2="5.588" width="1.524" layer="46"/>
+</package>
+</packages>
+<symbols>
+<symbol name="T_PLUG_CONNECTOR">
+<wire x1="0.5" y1="0" x2="5.5" y2="0" width="0.127" layer="94"/>
+<wire x1="13.5" y1="1.5" x2="13.5" y2="6" width="0.127" layer="94"/>
+<wire x1="5.5" y1="7.5" x2="0.5" y2="7.5" width="0.127" layer="94"/>
+<wire x1="0" y1="7" x2="0" y2="0.5" width="0.127" layer="94"/>
+<wire x1="6.5" y1="6.5" x2="13" y2="6.5" width="0.127" layer="94"/>
+<wire x1="6.5" y1="1" x2="13" y2="1" width="0.127" layer="94"/>
+<wire x1="5.5" y1="0" x2="6.5" y2="1" width="0.127" layer="94"/>
+<wire x1="5.5" y1="7.5" x2="6.5" y2="6.5" width="0.127" layer="94"/>
+<wire x1="13" y1="1" x2="13.5" y2="1.5" width="0.127" layer="94"/>
+<wire x1="13" y1="6.5" x2="13.5" y2="6" width="0.127" layer="94"/>
+<wire x1="0.5" y1="7.5" x2="0" y2="7" width="0.127" layer="94"/>
+<wire x1="0" y1="0.5" x2="0.5" y2="0" width="0.127" layer="94"/>
+<wire x1="6.1" y1="1.75" x2="9.9" y2="1.75" width="0.127" layer="91"/>
+<wire x1="10" y1="4.5" x2="10" y2="3.5" width="0.127" layer="91"/>
+<wire x1="6" y1="4.5" x2="6" y2="3.5" width="0.127" layer="91"/>
+<wire x1="6" y1="4.5" x2="10" y2="4.5" width="0.127" layer="91"/>
+<wire x1="2" y1="5.75" x2="3" y2="5.75" width="0.127" layer="94"/>
+<wire x1="3" y1="1.75" x2="2" y2="1.75" width="0.127" layer="94"/>
+<wire x1="2" y1="1.75" x2="2" y2="5.75" width="0.127" layer="94"/>
+<wire x1="6" y1="4.5" x2="10" y2="4.5" width="0.127" layer="94"/>
+<wire x1="10" y1="4.5" x2="10" y2="3.5" width="0.127" layer="94"/>
+<wire x1="6" y1="3.5" x2="6" y2="4.5" width="0.127" layer="94"/>
+<wire x1="3" y1="5.75" x2="3.1" y2="5.65" width="0.127" layer="91"/>
+<wire x1="3.1" y1="5.65" x2="4.6" y2="5.65" width="0.127" layer="91"/>
+<wire x1="4.6" y1="5.65" x2="4.6" y2="1.85" width="0.127" layer="91"/>
+<wire x1="4.6" y1="1.85" x2="3.1" y2="1.85" width="0.127" layer="91"/>
+<wire x1="3.1" y1="1.85" x2="3" y2="1.75" width="0.127" layer="91"/>
+<wire x1="6" y1="3.5" x2="6.1" y2="3.4" width="0.127" layer="91"/>
+<wire x1="6.1" y1="3.4" x2="6.1" y2="1.75" width="0.127" layer="91"/>
+<wire x1="10" y1="3.5" x2="9.9" y2="3.4" width="0.127" layer="91"/>
+<wire x1="9.9" y1="3.4" x2="9.9" y2="1.75" width="0.127" layer="91"/>
+<wire x1="3" y1="5.75" x2="2" y2="5.75" width="0.127" layer="91"/>
+<wire x1="2" y1="5.75" x2="2" y2="1.75" width="0.127" layer="91"/>
+<wire x1="2" y1="1.75" x2="3" y2="1.75" width="0.127" layer="91"/>
+<wire x1="0.5" y1="3.5" x2="1.5" y2="3.5" width="0.254" layer="94"/>
+<wire x1="1" y1="4" x2="1" y2="3" width="0.254" layer="94"/>
+<wire x1="10.5" y1="2.5" x2="11.5" y2="2.5" width="0.254" layer="94"/>
+<pin name="P-1" x="2.54" y="-2.54" length="middle" direction="pas" rot="R90"/>
+<pin name="P-2" x="7.62" y="-2.54" length="middle" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="T-PLUG_CONNECTOR">
+<gates>
+<gate name="T_PLUG" symbol="T_PLUG_CONNECTOR" x="-20.32" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="T_PLUG_CONNECTOR">
+<connects>
+<connect gate="T_PLUG" pin="P-1" pad="P$1"/>
+<connect gate="T_PLUG" pin="P-2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21775,7 +21762,6 @@ By using any of these models, you agree that this information has been provided 
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="con-T-plug" deviceset="T-PLUG_CONNECTOR" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="st-microelectronics" library_urn="urn:adsk.eagle:library:368" deviceset="L293DD" device="" package3d_urn="urn:adsk.eagle:package:26832/1"/>
@@ -21859,6 +21845,7 @@ By using any of these models, you agree that this information has been provided 
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U5" library="Switches" library_urn="urn:adsk.eagle:library:14854419" deviceset="4-1437565-1" device="" package3d_urn="urn:adsk.eagle:package:14854631/2" value="RST"/>
 <part name="U6" library="Switches" library_urn="urn:adsk.eagle:library:14854419" deviceset="4-1437565-1" device="" package3d_urn="urn:adsk.eagle:package:14854631/2" value="BOOT"/>
+<part name="U$1" library="con-T-plug" deviceset="T-PLUG_CONNECTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21912,7 +21899,6 @@ By using any of these models, you agree that this information has been provided 
 <instance part="GND4" gate="1" x="119.38" y="88.9" smashed="yes">
 <attribute name="VALUE" x="116.84" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="T_PLUG" x="25.4" y="106.68" smashed="yes" rot="MR270"/>
 <instance part="P+2" gate="VCC" x="33.02" y="106.68" smashed="yes">
 <attribute name="VALUE" x="35.56" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -21961,6 +21947,7 @@ By using any of these models, you agree that this information has been provided 
 <instance part="P+7" gate="VCC" x="55.88" y="78.74" smashed="yes">
 <attribute name="VALUE" x="58.42" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="T_PLUG" x="25.4" y="106.68" smashed="yes" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -21975,9 +21962,9 @@ By using any of these models, you agree that this information has been provided 
 <junction x="50.8" y="106.68"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="T_PLUG" pin="P-1"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="27.94" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="T_PLUG" pin="P-1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
@@ -22024,9 +22011,9 @@ By using any of these models, you agree that this information has been provided 
 <wire x1="86.36" y1="96.52" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="T_PLUG" pin="P-2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="27.94" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="T_PLUG" pin="P-2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND@8"/>

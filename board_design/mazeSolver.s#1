@@ -22655,13 +22655,6 @@ By using any of these models, you agree that this information has been provided 
 <label x="144.78" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DSR" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="DSR"/>
-<wire x1="48.006" y1="87.122" x2="48.006" y2="90.932" width="0.1524" layer="91"/>
-<label x="48.006" y="90.932" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="DTR" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="DTR"/>
@@ -23007,14 +23000,15 @@ By using any of these models, you agree that this information has been provided 
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="116.84" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 <junction x="208.28" y="109.22"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="129.54" x2="220.98" y2="127" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="127" x2="213.36" y2="127" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="127" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="127" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="129.54" x2="220.98" y2="127" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
+<junction x="215.9" y="127"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
