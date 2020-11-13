@@ -27544,13 +27544,6 @@ Operating Temp:</text>
 <label x="228.6" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INT" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="IO25"/>
-<wire x1="172.72" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
-<label x="165.1" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>

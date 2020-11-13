@@ -26539,7 +26539,7 @@ Operating Temp:</text>
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$10" library="microbuilder" deviceset="FRAME_A4_ADAFRUIT" device=""/>
-<part name="U$11" library="microbuilder" deviceset="BNO055" device="" value="BNO055"/>
+<part name="U$11" library="microbuilder" deviceset="BNO055" device="" override_package3d_urn="urn:adsk.eagle:package:24685380/2" override_package_urn="urn:adsk.eagle:footprint:24685381/1" value="BNO055"/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 <part name="Y1" library="microbuilder" deviceset="CRYSTAL" device="8.0X3.8" value="32.768kHz"/>
