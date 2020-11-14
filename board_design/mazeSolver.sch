@@ -25710,12 +25710,6 @@ Operating Temp:</text>
 <text x="-1.524" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="3.3V">
-<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="3.3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME_A4_ADAFRUIT">
@@ -25771,19 +25765,6 @@ Operating Temp:</text>
 <description>&lt;b&gt;GND&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3V">
-<description>&lt;b&gt;3.3V Supply&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -26572,7 +26553,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="st-microelectronics" library_urn="urn:adsk.eagle:library:368" deviceset="L293DD" device="" package3d_urn="urn:adsk.eagle:package:26832/1" override_package3d_urn="urn:adsk.eagle:package:24674125/2" override_package_urn="urn:adsk.eagle:footprint:26750/1"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -26974,8 +26954,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="U$18" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$20" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$25" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$26" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1u"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1u"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22p"/>
@@ -26985,6 +26963,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
 <part name="U$2" library="pololu_encoder" deviceset="POLOLU_ENCODER" device="" override_package3d_urn="urn:adsk.eagle:package:24685780/2" override_package_urn="urn:adsk.eagle:footprint:24685781/1"/>
 <part name="Q4" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-7" package3d_urn="urn:adsk.eagle:package:11924/1" value="32.768kHz"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27063,9 +27042,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <attribute name="NAME" x="182.88" y="150.876" size="1.778" layer="95"/>
 <attribute name="VALUE" x="182.88" y="109.22" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="VCC" x="210.82" y="149.86" smashed="yes">
-<attribute name="VALUE" x="213.36" y="152.4" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND10" gate="1" x="177.8" y="106.68" smashed="yes">
 <attribute name="VALUE" x="175.26" y="104.14" size="1.778" layer="96"/>
 </instance>
@@ -27118,6 +27094,9 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <attribute name="MPN" x="35.56" y="88.9" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="193.04" y="81.28" smashed="yes"/>
+<instance part="P+3" gate="VCC" x="177.8" y="152.4" smashed="yes">
+<attribute name="VALUE" x="175.26" y="149.86" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27130,11 +27109,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <wire x1="50.8" y1="106.68" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <junction x="50.8" y="106.68"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="VSS"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="205.74" y1="147.32" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
@@ -27155,6 +27129,12 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="U$9" gate="T_PLUG" pin="P-1"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="33.02" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="VS"/>
+<wire x1="177.8" y1="149.86" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="147.32" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -27260,11 +27240,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <label x="93.98" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VS"/>
-<wire x1="180.34" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="172.72" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="EN1"/>
 <wire x1="180.34" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <label x="172.72" y="139.7" size="1.778" layer="95"/>
@@ -27278,6 +27253,11 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="IC2" gate="A1" pin="VO"/>
 <wire x1="81.28" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <label x="86.36" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS"/>
+<wire x1="205.74" y1="147.32" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
+<label x="208.28" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INA1" class="0">
@@ -27727,6 +27707,18 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <wire x1="142.24" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <label x="144.78" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="REGIN"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="38.1" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="VDD"/>
+<wire x1="38.1" y1="40.64" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<junction x="35.56" y="38.1"/>
+<label x="27.94" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INA1" class="0">
 <segment>
@@ -28029,19 +28021,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <wire x1="22.86" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <junction x="22.86" y="35.56"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="REGIN"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="40.64" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="38.1" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="VDD"/>
-<wire x1="38.1" y1="40.64" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-<junction x="35.56" y="38.1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -28458,12 +28437,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <instance part="U$21" gate="G$1" x="139.7" y="116.84" smashed="yes" rot="R90">
 <attribute name="VALUE" x="142.24" y="115.316" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="U$25" gate="G$1" x="53.34" y="147.32" smashed="yes">
-<attribute name="VALUE" x="51.816" y="148.336" size="1.27" layer="96"/>
-</instance>
-<instance part="U$26" gate="G$1" x="101.6" y="111.76" smashed="yes" rot="R270">
-<attribute name="VALUE" x="102.616" y="113.284" size="1.27" layer="96" rot="R270"/>
-</instance>
 <instance part="C3" gate="G$1" x="45.72" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.339" y="143.764" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="50.419" y="143.764" size="1.778" layer="96" rot="R90"/>
@@ -28616,25 +28589,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="VDDIO"/>
-<pinref part="U$25" gate="G$1" pin="3.3V"/>
-<wire x1="55.88" y1="139.7" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="139.7" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="VDD"/>
-<wire x1="53.34" y1="142.24" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
-<junction x="53.34" y="142.24"/>
-<wire x1="50.8" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U$11" gate="G$1" pin="NBOOT_LOAD_PIN"/>
-<pinref part="U$26" gate="G$1" pin="3.3V"/>
-<wire x1="96.52" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="COM0/SDA/TX"/>
@@ -28647,6 +28601,25 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="U$11" gate="G$1" pin="COM1/SCL/RX"/>
 <wire x1="96.52" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 <label x="99.06" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="VDDIO"/>
+<wire x1="55.88" y1="139.7" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="139.7" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="VDD"/>
+<wire x1="53.34" y1="142.24" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
+<junction x="53.34" y="142.24"/>
+<wire x1="50.8" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<label x="50.8" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="NBOOT_LOAD_PIN"/>
+<wire x1="96.52" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
+<label x="96.52" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

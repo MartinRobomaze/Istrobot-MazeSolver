@@ -26539,7 +26539,7 @@ Operating Temp:</text>
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$10" library="microbuilder" deviceset="FRAME_A4_ADAFRUIT" device=""/>
-<part name="U$11" library="microbuilder" deviceset="BNO055" device="" value="BNO055"/>
+<part name="U$11" library="microbuilder" deviceset="BNO055" device="" override_package3d_urn="urn:adsk.eagle:package:24685380/2" override_package_urn="urn:adsk.eagle:footprint:24685381/1" value="BNO055"/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 <part name="Y1" library="microbuilder" deviceset="CRYSTAL" device="8.0X3.8" value="32.768kHz"/>
@@ -27542,13 +27542,6 @@ Operating Temp:</text>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="40.64" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 <label x="228.6" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="INT" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="IO25"/>
-<wire x1="172.72" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
-<label x="165.1" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="0">
